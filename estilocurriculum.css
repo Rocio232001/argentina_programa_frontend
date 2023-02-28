@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  
+}
+body {
+    background-color: #e6324b;
+    
+  }
+
+  .header{
+ background-color:#353634;
+ position: relative;
+ color:white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 85px;
+ padding: 5px 10%;
+
+  }
+  .header .enlacesnav{
+    list-style: none;
+  }
+  .header .enlacesnav li{
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .header .enlacesnav li:hover{
+    transform: scale(1.1);
+  }
+  .header .enlacesnav{
+    padding-left: 1000px;
+  }
+  .header .enlacesnav a{
+    font-size: 700;
+  color: azure;
+  text-decoration: none;
+  }
+  .header .enlacesnav li a:hover{
+    color: #f2e3c6;
+    
+
+  }
+  .informacion_personal .imagen{
+    background-color: #ffc6a5;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+  }
+  .informacion_personal .imagen .img{
+    border-radius: 180px;
+    height: 350px;
+    width: 350px;
+  }
+  
+  .informacion_personal .name{
+    
+    text-decoration: bold;
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 2;
+    
+     
+  }
+  
+  .titulo_infopersonal{
+    padding-left: 90px;
+    padding-top: 30px;
+    
+  }
+  .summary{
+    padding-left: 60px;
+    padding-top: 105px;
+  }
+  .WorkExperiencebox .boxeworkexperience{
+    text-align: center;
+    padding-top: 50px;
+
+  }
+  .WorkExperiencebox .boxeworkexperience .botones{
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    
+    
+  }
+.WorkExperiencebox .boxeworkexperience .botones a{
+  
+  padding: 9px 25px;
+  background-color: #353634;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 40px;
+}
+.WorkExperiencebox .boxeworkexperience .botones a:hover{
+  color: #f2e3c6;
+}
+.WorkExperiencebox .boxeworkexperience .titleWorkE{
+  font-size: 35px;
+  
+}
+.contactosinfoBox{
+  background-color: #353634;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  padding-left: 820px;
+  
+}
+.contenidobotones{
+  display: flex;
+  padding-bottom: 150px;
+  padding-left: 300px;
+}
+.contenidobotones .programmer01{
+  
+  padding-right: 10px;
+}
+.contenidobotones .Developer02{
+  padding-left: 40px; 
+  
+}
+
+.contenidobotones .JuniorProgrammer03{
+  padding-left: 60px;
+}
+
+.programmer01{
+  display: none;
+}
+.Developer02{
+  display: none;
+}
+.JuniorProgrammer03{
+  display: none;
+}
+
+.show{
+  display: block;
+  
+}
+.skills_education{
+  background-color: #ffc6a5;
+  padding-top: 60px;
+  padding-left: 450px;
+  padding-bottom: 100px;
+  display: flex;
+  
+}
+.skills_education .skillsbox .btn_skillscolor{
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.skills_education .skillsbox .btn_skillscolor a{
+  background-color: #353634;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 9px 125px;
+  color: white 
+  
+}
+.skills_education .educationbox .btneducation_color{
+  padding-left: 200px;
+  
+}
+.skills_education .educationbox .btneducation_color a{
+  background-color: #353634;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 9px 125px;
+  color: white;
+}
+.skills_education .educationbox .skills_information{
+  padding-top: 40px;
+  display: flex;
+}
+.skills_education .educationbox .education_information{
+  padding-top: 40px;
+  
+
+}
+.skills_information{
+  display: none;
+}
+.education_information{
+  display: none;
+}
+
+.mostrar{
+  display: block;
+}
+
+
+
+  
