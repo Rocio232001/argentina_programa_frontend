@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,132 +8,142 @@
     <link rel="stylesheet" href="estilocurriculum.css">
     <title>Will Brown</title>
 </head>
-<body>
-<!--Encabezado(header)-->
-    <header class="header">
-    <div class="navbar">
-        <nav>
-            <ul class="enlacesnav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-    </div>
-</header>
 
-<!--Bloque de información personal-->
+<body>
+    <!--Encabezado(header)-->
+    <header class="header">
+        <div class="navbar">
+            <nav>
+                <ul class="enlacesnav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Bloque de información personal-->
 
     <div class="informacion_personal">
         <div class="imagen">
-        <img src="img_proyecto/imagencurriculum.jpg" class="img" alt="Will Brown">
+            <img src="imgproyecto/imagencurriculum.jpg" class="img" alt="Will Brown">
 
 
-<div class="titulo_infopersonal">    
-    <h1 class="name" id="name"></h1>
-        <h2 class="infopersonal" id="personalinfotitle">Personal Information</h2>
-        <ul>
-            <li id="edad"></li>
-            <li id="ocupacion"></li>
-            <li id="ciudad"></li>
-            <li id="educacion">Education: Bachelor's degree in Computer Science<br> from the University of Washington</li>
-        </ul>
-</div>
-<div class="summary">
+            <div class="titulo_infopersonal">
+                <h1 class="name" id="name"></h1>
+                <h2 class="infopersonal" id="personalinfotitle">Personal Information</h2>
+                <ul>
+                    <li id="edad"></li>
+                    <li id="ocupacion"></li>
+                    <li id="ciudad"></li>
+                    <li id="educacion">Education: Bachelor's degree in Computer Science<br> from the University of
+                        Washington</li>
+                </ul>
+            </div>
+            <div class="summary">
 
-        
-        <p id="summary"><strong>Summary:</strong><br>
-            Experienced programmer with a passion for developing innovative solutions.<br> Skilled in multiple programming languages and experienced in working with<br> small teams to achieve project goals. Strong communication and problem-solving skills.</p>
+
+                <p id="summary"><strong>Summary:</strong><br>
+                    Experienced programmer with a passion for developing innovative solutions.<br> Skilled in multiple
+                    programming languages and experienced in working with<br> small teams to achieve project goals.
+                    Strong communication and problem-solving skills.</p>
+            </div>
+
         </div>
+        <!--Bloque experiencia laboral-->
+
+        <div class="WorkExperiencebox">
+            <div class="boxeworkexperience">
+                <h2 class="titleWorkE">Work Experience</h2>
+
+                <div class="botones">
+                    <a href="#" class="button1" id="hidetext_btn01" onclick="showText()">Programmer, Tech Solutions Inc.
+                        (2019-2022)</a>
+                    <a href="#" class="button2" id="hidetext_btn02">Developer, Code Wizards LLC (2017-2019)</a>
+                    <a href="#" class="button3" id="hidetext_btn03">Junior Programmer, Quantum Technologies
+                        (2016-2017)</a>
+                </div>
+            </div>
+
+
+            <!--elementos que van a aparecer con js-->
+
+
+            <div class="contenidobotones">
+                <div class="programmer01" id="hide_text01">
+                    <h2><strong>Programmer Experience</strong></h2>
+
+                    <ul>
+                        <li>Collaborated with team members<br> to develop software solutions for <br>clients in various
+                            industries.</li>
+                        <li>Implemented new features and<br> optimized code to improve overall <br>performance.</li>
+                        <li>Conducted code reviews and provided<br> constructive feedback to peers.</li>
+                    </ul>
+
+                </div>
+                <div class="Developer02" id="hide_text02">
+                    <h2><strong>Developer Experience</strong></h2>
+                    <ul>
+                        <li>Worked on multiple projects using languages<br> such as Python, Java, and C++.</li>
+                        <li>Developed and maintained web applications<br> using frameworks such as Django and Flask</li>
+                        <li>Conducted testing and debugging to ensure<br> smooth operation of software applications.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="JuniorProgrammer03" id="hide_text03">
+                    <h2><strong>Junior Programmer Experience</strong></h2>
+
+
+                    <li>Assisted in the development and maintenance<br> of software solutions for clients in the
+                        healthcare industry.</li>
+                    <li>Worked closely with senior developers to identify<br> and resolve issues.</li>
+                    <li>Gained experience in programming languages such as<br> Java and JavaScript.</li>
+                    </ul>
+
+                </div>
+            </div>
 
         </div>
-    <!--Bloque experiencia laboral-->
-
-    <div class="WorkExperiencebox">
-        <div class="boxeworkexperience">
-        <h2 class="titleWorkE">Work Experience</h2>
-        
-        <div class="botones">
-        <a href="#" class="button1" id="hidetext_btn01" onclick="showText()">Programmer, Tech Solutions Inc. (2019-2022)</a>
-        <a href="#" class="button2" id="hidetext_btn02">Developer, Code Wizards LLC (2017-2019)</a>
-        <a href="#" class="button3" id="hidetext_btn03">Junior Programmer, Quantum Technologies (2016-2017)</a>
-    </div>
-    </div>
-    
-
-    <!--elementos que van a aparecer con js-->
-       
-        
-        <div class="contenidobotones">
-            <div class="programmer01" id="hide_text01">
-        <h2><strong>Programmer Experience</strong></h2>
-                     
-        <ul>
-            <li>Collaborated with team members<br> to develop software solutions for <br>clients in various industries.</li>
-            <li>Implemented new features and<br> optimized code to improve overall <br>performance.</li>
-            <li>Conducted code reviews and provided<br> constructive feedback to peers.</li>
-        </ul>
-    
-    </div>
-    <div class="Developer02" id="hide_text02">
-         <h2><strong>Developer Experience</strong></h2>
-        <ul>
-            <li>Worked on multiple projects using languages<br> such as Python, Java, and C++.</li>
-            <li>Developed and maintained web applications<br> using frameworks such as Django and Flask</li>
-            <li>Conducted testing and debugging to ensure<br> smooth operation of software applications.</li>
-        </ul>
-   
-    </div>
-    <div class="JuniorProgrammer03" id="hide_text03">
-        <h2><strong>Junior Programmer Experience</strong></h2>
-        
-        
-            <li>Assisted in the development and maintenance<br> of software solutions for clients in the healthcare industry.</li>
-            <li>Worked closely with senior developers to identify<br> and resolve issues.</li>
-            <li>Gained experience in programming languages such as<br> Java and JavaScript.</li>
-        </ul>
-    
-    </div>
-    </div>
-        
-    </div>
 
     </div>
     <div class="skills_education">
-    <div class="skillsbox">
-        <div class="btn_skillscolor">
-        <a href="#" class="btn_skills" id="skillsboton"> Skills</a>
-    </div>
-        <div class="skills_information" id="information_skills">
-        <ul>
-            <li>Proficient in Python, Java, C++, JavaScript,<br> and other programming languages.</li>
-            <li>Experienced in using various frameworks<br> such as Django and Flask.</li>
-            <li>Strong communication and interpersonal skills.</li>
-            <li>Strong communication and interpersonal skills.</li>
-            <li>Strong communication and interpersonal skills.</li>
-            <li>Ability to work effectively in small teams.</li>
-            <li>Detail-oriented with a strong focus on problem-solving.</li>
-        </ul>
-    </div>
-    </div>
-    <div class="educationbox">
-        <div class="btneducation_color">
-        <a href="#" class="btn_education" id="educationboton">Education</a></div>
-        <div class="education_information" id="info_education">
-        <p>Detail-oriented with a strong focus on problem-solving.</p>
-    </div>
+        <div class="skillsbox">
+            <div class="btn_skillscolor">
+                <a href="#" class="btn_skills" id="skillsboton"> Skills</a>
+            </div>
+            <div class="skills_information" id="information_skills">
+                <ul>
+                    <li>Proficient in Python, Java, C++, JavaScript,<br> and other programming languages.</li>
+                    <li>Experienced in using various frameworks<br> such as Django and Flask.</li>
+                    <li>Strong communication and interpersonal skills.</li>
+                    <li>Strong communication and interpersonal skills.</li>
+                    <li>Strong communication and interpersonal skills.</li>
+                    <li>Ability to work effectively in small teams.</li>
+                    <li>Detail-oriented with a strong focus on problem-solving.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="educationbox">
+            <div class="btneducation_color">
+                <a href="#" class="btn_education" id="educationboton">Education</a>
+            </div>
+            <div class="education_information" id="info_education">
+                <p>Detail-oriented with a strong focus on problem-solving.</p>
+            </div>
 
+        </div>
     </div>
-</div>
     <!--Bloque de contactos-->
     <div class="contactosinfoBox">
-        <div class="contenidocontactos"
-        <h2><strong>Contacts</strong></h2>
-        <p>Email: will.brown@email.com</p>
-        <p>Phone: (555) 555-5555</p>
+        <div class="contenidocontactos" <h2><strong>Contacts</strong></h2>
+            <p>Email: will.brown@email.com</p>
+            <p>Phone: (555) 555-5555</p>
         </div>
     </div>
     <script src="dinamismocurriculum.js"></script>
 </body>
+
 </html>
